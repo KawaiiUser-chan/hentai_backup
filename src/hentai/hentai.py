@@ -382,6 +382,7 @@ class Extension(Enum):
     JPG = 'j'
     PNG = 'p'
     GIF = 'g'
+    WEBP = 'w'
 
     @classmethod
     def convert(cls, key: str) -> str:
